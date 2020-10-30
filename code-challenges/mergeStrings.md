@@ -4,7 +4,7 @@ You are implementing your own programming language and you've decided to add sup
 
 For example, if s1 = "super" and s2 = "tower", the result should be merge(s1, s2) = "stouperwer".
 
-[pic1]
+![pic1](https://github.com/vishalicious213/one-off-resources/blob/master/img/mergeStrings1.png)
 
 You'd like to make your language more unique, so for your merge function, instead of comparing the characters in the usual lexicographical order, you'll compare them based on how many times they occur in their respective strings (fewer occurrences means the character is considered smaller). If the number of occurrences are equal, then the characters should be compared in the usual lexicographical way. If both number of occurences and characters are equal, you should take the characters from the first string to the result.
 
@@ -14,14 +14,15 @@ Example
 ```
 For s1 = "dce" and s2 = "cccbd", the output should be
 mergeStrings(s1, s2) = "dcecccbd".
-All symbols from s1 goes first, because all of them have only 1 occurrence in s1 and c has 3 occurrences in s2.
 ```
-[pic2]
+All symbols from s1 goes first, because all of them have only 1 occurrence in s1 and c has 3 occurrences in s2.
+
+![pic1](https://github.com/vishalicious213/one-off-resources/blob/master/img/mergeStrings2.jpg)
 ```
 For s1 = "super" and s2 = "tower", the output should be
 mergeStrings(s1, s2) = "stouperwer".
-Because in both strings all symbols occur only 1 time, strings are merged as usual. You can find explanation for this example on the image in the description.
 ```
+Because in both strings all symbols occur only 1 time, strings are merged as usual. You can find explanation for this example on the image in the description.
 
 ```python
 def mergeStrings(s1, s2):
