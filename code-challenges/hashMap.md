@@ -24,7 +24,7 @@ The hashmap looks like this after each query:
 5 query: answer is 5
 The result of the last get query for 3 is 5 in the resulting hashmap.
 ```
-[pic1]
+![pic1](https://github.com/vishalicious213/one-off-resources/blob/master/img/hashMap.jpg)
 ```
 For queryType = ["insert", "addToValue", "get", "insert", "addToKey", "addToValue", "get"] and query = [[1, 2], [2], [1], [2, 3], [1], [-1], [3]], the output should be hashMap(queryType, query) = 6.
 
