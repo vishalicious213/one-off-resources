@@ -25,6 +25,8 @@ For a = [1, 4, 5, 6, 3], the output should be alternatingSort(a) = false.
 The new array b will look like [1, 3, 4, 6, 5], which is not in strictly ascending order, so the answer is false.
 ```
 
+![pic1](https://github.com/vishalicious213/one-off-resources/blob/master/img/alternatingSort.gif)
+
 ```python
 def alternatingSort(a):
 ```
