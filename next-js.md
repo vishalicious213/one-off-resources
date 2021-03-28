@@ -139,4 +139,16 @@ In the imports section at the top of `about.js` we could import that file, and n
 ```javascript
 import aboutStyles from '../styles/about.module.css'
 ```
-We could name it anything we want, but _aboutStyles_ seemed self-explanatory.
+We could name it anything we want, but _aboutStyles_ seemed self-explanatory. In the `about page` we have to remember to include `aboutStyles` in the className, along with the name of the class.
+```javascript
+<section className={aboutStyles.hero}>
+    ...
+</section>
+```
+
+Multiple classes can be added to an element like this:
+```javascript
+<div className={`${aboutStyles.info} ${aboutStyles.anotherClass}`}>
+    ...
+</div>
+```
