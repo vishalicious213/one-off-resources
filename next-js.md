@@ -74,7 +74,7 @@ export default function Home() {
 ```
 
 ## SETUP NAVIGATION
-Create a navigation component that can be imported into each page after initial pages are set up in above steps (additional pages can also be added to the navigation afterwards, naturally).
+Create a `components` directory and create a navigation component that can be imported into each page after initial pages are set up in above steps (additional pages can also be added to the navigation afterwards, naturally).
 * JavaScript files in the `pages` folder or its subfolders use their filename as the URL path
 * Pages are React components exported from a file in the `pages` directory
 * Page routes are based on their file name, so:
@@ -93,10 +93,24 @@ export default function Hat() {
 * Use the `Link` component from `next/link` as an \<a>. For example:
 ```javascript
 import Link from 'next/link'
+
+export default Nav() {
+    return (
+        <nav>
+            <Link href='/'><a>Home</a></Link>
+            <Link href='/about'><a>About</a></Link>
+            <Link href='/services'><a>Services</a></Link>
+            <Link href='/contact'><a>Contact</a></Link>
+        </nav>
+    )
+}
 ```
+
+Import the nav component into any pages that need it and render it. For example, at the top of index.js, include:
 ```javascript
-<Link href='/'><a>Home</a></Link>
-<Link href='/about'><a>About</a></Link>
-<Link href='/services'><a>Services</a></Link>
-<Link href='/contact'><a>Contact</a></Link>
+import Nav from '../components/nav'
+```
+And somewhere in the body, probably at the top, above \<main> add:
+```javascript
+<Nav />
 ```
