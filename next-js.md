@@ -40,3 +40,63 @@ Files in the `/pages` folder will automatically have routing built into them. Su
 6. Make a new page in the `pages` folder, for example `contact.js`
 7. Paste the contents of index.js into the new page and change the name of the function from `Home` to something more appropriate to the page
 8. Repeat steps 6 & 7 for any additional pages
+
+Here's a template for ease of use:
+```javascript
+import Head from 'next/head'
+import styles from '../styles/Home.module.css'
+
+export default function Home() {
+  return (
+    <div className={styles.container}>
+      <Head>
+        <title>Project or page name goes here</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
+      <main className={styles.main}>
+        <h1 className={styles.title}>HOME PAGE</h1>
+      </main>
+
+      <footer className={styles.footer}>
+        <a
+          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Powered by{' '}
+          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+        </a>
+      </footer>
+    </div>
+  )
+}
+```
+
+## SETUP NAVIGATION
+Create a navigation component that can be imported into each page after initial pages are set up in above steps (additional pages can also be added to the navigation afterwards, naturally).
+* JavaScript files in the `pages` folder or its subfolders use their filename as the URL path
+* Pages are React components exported from a file in the `pages` directory
+* Page routes are based on their file name, so:
+    * `pages/index.js` uses the `/` route
+    * `pages/about.js` uses `/about` as its route
+    * `pages/products/hat` uses `/products/hat` as its route
+* Page components can have any name but must be exported as default. For example:
+```javascript
+export default function Hat() {
+    return <h2>Buy this hat!</h2>
+}
+```
+
+### Link component
+`Link` enables client-side navigation using JavaScript. The browser does not reload the page. `Link` components are prefetched, so they are loaded in the background for faster render.
+* Use the `Link` component from `next/link` as an \<a>. For example:
+```javascript
+import Link from 'next/link'
+```
+```javascript
+<Link href='/'><a>Home</a></Link>
+<Link href='/about'><a>About</a></Link>
+<Link href='/services'><a>Services</a></Link>
+<Link href='/contact'><a>Contact</a></Link>
+```
