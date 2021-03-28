@@ -115,10 +115,28 @@ And somewhere in the body, probably at the top, above \<main> add:
 <Nav />
 ```
 
-## ADD STYLES
+## STYLING 1 - INCLUDE STYLES IN COMPONENT
+1. In the component's JSX, include an element called `style` with an attribute called `jsx` and wrap its contents with curly braces and backticks.
+2. This type of style cannot include core html elements, like `div`. It can include classes & ids.
+3. Use this type of styling for elements with __conditional styling__. For example, elements that use JavaScript to add/remove classes. It can be combined with other styling methods.
+
+```javascript
+<style jsx>
+  {`
+    .button {
+      border: 1px solid white;
+      color: black;
+    }
+  `}
+</style>
+```
+* I tend to add these styles at the bottom of the component's render.
+
+## STYLING 2 - ADD STYLES WITH CSS MODULES
 * Stylesheets should go in the /styles folder
-* Next.JS uses CSS Modules, so stylesheet files should end in `.module.css`
-* When we __import__ the stylesheet, we give it a name in the given component
+* Next.JS uses __styled-jsx__, a CSS-in-JS library, so stylesheet files should end in `.module.css`
+* SASS support is built-in
+* When we _import_ the stylesheet, we give it a name in the given component
 
 For example, this could be `about.module.css`:
 ```css
@@ -151,6 +169,32 @@ Multiple classes can be added to an element like this:
 <div className={`${aboutStyles.info} ${aboutStyles.anotherClass}`}>
     ...
 </div>
+```
+
+## ADD GLOBAL CSS IN `pages/_app.js`
+
+Global styles are loaded on every page from `pages/_app.js`. `App` is the top-level component common to all pages. It can keep state when navigating between pages.
+
+To load [global CSS](https://nextjs.org/docs/basic-features/built-in-css-support#adding-a-global-stylesheet) files, create `pages/_app.js` like this and __restart the development server__ with `npm run dev`:
+
+```javascript
+export default function App({ Component, pageProps }) {
+  return <Component {...pageProps} />
+}
+```
+
+__** `pages/_app.js` is the only file that global CSS files can be imported from. They cannot be imported from anywhere else. **__
+
+* The global css file can be placed anywhere and named anything
+* In general, create a `styles` folder and a `global.css` file
+* The file must be imported into `pages/_app.js`
+
+```javascript
+import '../styles/global.css'
+
+export default function App({ Component, pageProps }) {
+  return <Component {...pageProps} />
+}
 ```
 
 ## ADD STATIC FILES (images, documents, etc.)
