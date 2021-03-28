@@ -152,3 +152,11 @@ Multiple classes can be added to an element like this:
     ...
 </div>
 ```
+
+## ADD STATIC FILES (images, documents, etc.)
+* Static files, like images, are served from the top-level `public` directory
+* These files are referenced from the root of the application, like `pages`. For example:
+```javascript
+<img src='/hero-image.jpg ' alt='Schecter Stiletto Studio 5L Bass' className={aboutStyles.hero}/>
+```
+* `/hero-image.jpg` would reside in the `public` directory
