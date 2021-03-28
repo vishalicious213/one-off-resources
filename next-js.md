@@ -114,3 +114,29 @@ And somewhere in the body, probably at the top, above \<main> add:
 ```javascript
 <Nav />
 ```
+
+## ADD STYLES
+* Stylesheets should go in the /styles folder
+* Next.JS uses CSS Modules, so stylesheet files should end in `.module.css`
+* When we __import__ the stylesheet, we give it a name in the given component
+
+For example, this could be `about.module.css`:
+```css
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.info {
+    margin: 3rem auto;
+    padding: 0;
+    width: 80%;
+}
+```
+In the imports section at the top of `about.js` we could import that file, and name it at the same time like this:
+```javascript
+import aboutStyles from '../styles/about.module.css'
+```
+We could name it anything we want, but _aboutStyles_ seemed self-explanatory.
