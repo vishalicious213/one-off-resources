@@ -160,3 +160,14 @@ Multiple classes can be added to an element like this:
 <img src='/hero-image.jpg ' alt='Schecter Stiletto Studio 5L Bass' className={aboutStyles.hero}/>
 ```
 * `/hero-image.jpg` would reside in the `public` directory
+
+## Customize each page's /<head>
+* Modify a page's metadata through the <Head> component (note the capital 'h')
+```javascript
+import Head from 'next/head'
+```
+```javascript
+<Head>
+    <title>About Us | Website Name</title>
+</Head>
+```
