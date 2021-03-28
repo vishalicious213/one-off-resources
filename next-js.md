@@ -115,6 +115,25 @@ And somewhere in the body, probably at the top, above \<main> add:
 <Nav />
 ```
 
+## ADD STATIC FILES (images, documents, etc.)
+* Static files, like images, are served from the top-level `public` directory
+* These files are referenced from the root of the application, like `pages`. For example:
+```javascript
+<img src='/hero-image.jpg ' alt='Schecter Stiletto Studio 5L Bass' className={aboutStyles.hero}/>
+```
+* `/hero-image.jpg` would reside in the `public` directory
+
+## CUSTOMIZE EACH PAGE'S \<head>
+* Modify a page's metadata through the <Head> component (note the capital 'h')
+```javascript
+import Head from 'next/head'
+```
+```javascript
+<Head>
+    <title>About Us | Website Name</title>
+</Head>
+```
+
 ## STYLING 1 - INCLUDE STYLES IN COMPONENT
 1. In the component's JSX, include an element called `style` with an attribute called `jsx` and wrap its contents with curly braces and backticks.
 2. This type of style cannot include core html elements, like `div`. It can include classes & ids.
@@ -171,7 +190,7 @@ Multiple classes can be added to an element like this:
 </div>
 ```
 
-## ADD GLOBAL CSS IN `pages/_app.js`
+## STYLING 3 - ADD GLOBAL CSS IN `pages/_app.js`
 
 Global styles are loaded on every page from `pages/_app.js`. `App` is the top-level component common to all pages. It can keep state when navigating between pages.
 
@@ -195,23 +214,4 @@ import '../styles/global.css'
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />
 }
-```
-
-## ADD STATIC FILES (images, documents, etc.)
-* Static files, like images, are served from the top-level `public` directory
-* These files are referenced from the root of the application, like `pages`. For example:
-```javascript
-<img src='/hero-image.jpg ' alt='Schecter Stiletto Studio 5L Bass' className={aboutStyles.hero}/>
-```
-* `/hero-image.jpg` would reside in the `public` directory
-
-## Customize each page's /<head>
-* Modify a page's metadata through the <Head> component (note the capital 'h')
-```javascript
-import Head from 'next/head'
-```
-```javascript
-<Head>
-    <title>About Us | Website Name</title>
-</Head>
 ```
