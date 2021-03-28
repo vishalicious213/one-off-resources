@@ -29,3 +29,14 @@ For example, my path might be:
 
 Scroll up, click on your repo's name, after your username and see the new repo.
 
+## SETUP INITIAL PAGES
+Files in the `/pages` folder will automatically have routing built into them. Subfolders in `/pages` will also have routing built in. For example, `localhost:3000/index` will open `index.js` if its in `/pages` and `localhost:3000/contact` will open `contact.js` if its in `/pages`.
+
+1. Open the project in VS Code
+2. Go to the `pages` folder and open index.js
+3. Delete everything nested inside of \<main>
+4. Add a temporary element in \<main>, like an \<h1> with the page's name so you know what page you're on when you navigate to it
+5. Copy index.js for use as temporary boilerplate
+6. Make a new page in the `pages` folder, for example `contact.js`
+7. Paste the contents of index.js into the new page and change the name of the function from `Home` to something more appropriate to the page
+8. Repeat steps 6 & 7 for any additional pages
