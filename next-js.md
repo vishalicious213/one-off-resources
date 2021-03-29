@@ -70,14 +70,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
+        Footer Goes Here
       </footer>
     </div>
   )
@@ -85,7 +78,7 @@ export default function Home() {
 ```
 
 ## SETUP NAVIGATION
-Create a `components` directory and create a navigation component that can be imported into each page after initial pages are set up in above steps (additional pages can also be added to the navigation afterwards, naturally).
+Create a `components` directory on the same level as `public` and `pages` and create a navigation component in it that can be imported into each page after initial pages are set up in above steps (additional pages can also be added to the navigation afterwards).
 * JavaScript files in the `pages` folder or its subfolders use their filename as the URL path
 * Pages are React components exported from a file in the `pages` directory
 * Page routes are based on their file name, so:
@@ -100,19 +93,32 @@ export default function Hat() {
 ```
 
 ### Link component
-`Link` enables client-side navigation using JavaScript. The browser does not reload the page. `Link` components are prefetched, so they are loaded in the background for faster render.
+* `Link` enables client-side navigation using JavaScript. The browser does not reload the page. 
+* `Link` components are prefetched, so they are loaded in the background for faster render.
 * Use the `Link` component from `next/link` as an \<a>. For example:
+
 ```javascript
 import Link from 'next/link'
 
 export default Nav() {
     return (
-        <nav>
+        <nav id='menu'>
             <Link href='/'><a>Home</a></Link>
             <Link href='/about'><a>About</a></Link>
             <Link href='/services'><a>Services</a></Link>
             <Link href='/contact'><a>Contact</a></Link>
         </nav>
+
+        <style jsx>
+          {`
+            #menu {
+              width: 50%;
+              display: flex;
+              justify-content: space-between;
+              margin: 0 auto;
+            }
+          `}
+        </style>
     )
 }
 ```
@@ -127,15 +133,15 @@ And somewhere in the body, probably at the top, above \<main> add:
 ```
 
 ## ADD STATIC FILES (images, documents, etc.)
-* Static files, like images, are served from the top-level `public` directory
+* Static files - like images - are served from the top-level `public` directory
 * These files are referenced from the root of the application, like `pages`. For example:
 ```javascript
 <img src='/hero-image.jpg ' alt='Schecter Stiletto Studio 5L Bass' className={aboutStyles.hero}/>
 ```
 * `/hero-image.jpg` would reside in the `public` directory
 
-## CUSTOMIZE EACH PAGE'S \<head>
-* Modify a page's metadata through the <Head> component (note the capital 'h')
+## CUSTOMIZE EACH PAGE'S \<Head>
+* Modify a page's metadata through the <Head> component (note the capital 'H')
 ```javascript
 import Head from 'next/head'
 ```
@@ -147,8 +153,9 @@ import Head from 'next/head'
 
 ## STYLING 1 - INCLUDE STYLES IN COMPONENT
 1. In the component's JSX, include an element called `style` with an attribute called `jsx` and wrap its contents with curly braces and backticks.
-2. This type of style cannot include core html elements, like `div`. It can include classes & ids.
-3. Use this type of styling for elements with __conditional styling__. For example, elements that use JavaScript to add/remove classes. It can be combined with other styling methods.
+2. This is usually done at the bottom of the JSX, after all of the content.
+3. This type of style cannot include core html elements, like `div`. It can include __classes__ & __ids__.
+4. Use this type of styling for elements with __conditional styling__. For example, elements that use JavaScript to add/remove classes. It can be combined with other styling methods.
 
 ```javascript
 <style jsx>
@@ -160,7 +167,6 @@ import Head from 'next/head'
   `}
 </style>
 ```
-* I tend to add these styles at the bottom of the component's render.
 
 ## STYLING 2 - ADD STYLES WITH CSS MODULES
 * Stylesheets should go in the /styles folder
