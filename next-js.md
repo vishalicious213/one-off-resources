@@ -151,7 +151,9 @@ import Head from 'next/head'
 </Head>
 ```
 
-## STYLING 1 - INCLUDE STYLES IN COMPONENT
+# Next.JS STYLING
+
+## STYLING OPTION 1 - INCLUDE STYLES IN COMPONENT
 1. In the component's JSX, include an element called `style` with an attribute called `jsx` and wrap its contents with curly braces and backticks.
 2. This is usually done at the bottom of the JSX, after all of the content.
 3. This type of style cannot include core html elements, like `div`. It can include __classes__ & __ids__.
@@ -168,13 +170,13 @@ import Head from 'next/head'
 </style>
 ```
 
-## STYLING 2 - ADD STYLES WITH CSS MODULES
+## STYLING OPTION 2 - ADD STYLES WITH CSS MODULES
 * Stylesheets should go in the /styles folder
 * Next.JS uses __styled-jsx__, a CSS-in-JS library, so stylesheet files should end in `.module.css`
 * SASS support is built-in
-* When we _import_ the stylesheet, we give it a name in the given component
+* When we _import_ a stylesheet, we give it a name in the given component
 
-For example, this could be `about.module.css`:
+For example, this file could be `about.module.css`:
 ```css
 .hero {
     display: flex;
@@ -193,7 +195,7 @@ In the imports section at the top of `about.js` we could import that file, and n
 ```javascript
 import aboutStyles from '../styles/about.module.css'
 ```
-We could name it anything we want, but _aboutStyles_ seemed self-explanatory. In the `about page` we have to remember to include `aboutStyles` in the className, along with the name of the class.
+We could name it/import it as anything we want, but _aboutStyles_ seems self-explanatory. When adding classes to elements in the __about page__ we have to remember to include `aboutStyles` in the className, along with the name of the class.
 ```javascript
 <section className={aboutStyles.hero}>
     ...
@@ -207,9 +209,10 @@ Multiple classes can be added to an element like this:
 </div>
 ```
 
-## STYLING 3 - ADD GLOBAL CSS IN `pages/_app.js`
+## STYLING OPTION 3 - ADD GLOBAL CSS IN `pages/_app.js`
 
-Global styles are loaded on every page from `pages/_app.js`. `App` is the top-level component common to all pages. It can keep state when navigating between pages.
+* Global styles are loaded on every page from `pages/_app.js`.
+* `App` is the top-level component common to all pages. It can keep state when navigating between pages.
 
 To load [global CSS](https://nextjs.org/docs/basic-features/built-in-css-support#adding-a-global-stylesheet) files, create `pages/_app.js` like this and __restart the development server__ with `npm run dev`:
 
