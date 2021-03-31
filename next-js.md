@@ -100,25 +100,27 @@ export default function Hat() {
 ```javascript
 import Link from 'next/link'
 
-export default Nav() {
+export default function Nav() {
     return (
-        <nav id='menu'>
-            <Link href='/'><a>Home</a></Link>
-            <Link href='/about'><a>About</a></Link>
-            <Link href='/services'><a>Services</a></Link>
-            <Link href='/contact'><a>Contact</a></Link>
-        </nav>
+        <>
+            <nav id='menu'>
+                <Link href='/'><a>Home</a></Link>
+                <Link href='/about'><a>About</a></Link>
+                <Link href='/services'><a>Services</a></Link>
+                <Link href='/contact'><a>Contact</a></Link>
+            </nav>
 
-        <style jsx>
-          {`
-            #menu {
-              width: 50%;
-              display: flex;
-              justify-content: space-between;
-              margin: 0 auto;
-            }
-          `}
-        </style>
+            <style jsx>
+            {`
+                #menu {
+                width: 50%;
+                display: flex;
+                justify-content: space-between;
+                margin: 0 auto;
+                }
+            `}
+            </style>
+        </>
     )
 }
 ```
