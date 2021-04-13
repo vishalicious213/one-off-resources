@@ -153,6 +153,42 @@ import Head from 'next/head'
 </Head>
 ```
 
+## ADD COMMON COMPONENTS TO ALL PAGES
+* To add a \<nav> or \<footer> or other component to all pages on a website modify the _app.js file in the pages folder (pages/_app.js). It initially returns \<Component {...pageProps}> where Component represents each of the pages in the project. It can be modified to include other components or elements.
+
+Initial _app.js example:
+
+```javascript
+import '../styles/globals.css'
+
+function MyApp({ Component, pageProps }) {
+  return <Component {...pageProps} />
+}
+
+export default 
+```
+
+Modified _app.js example:
+
+```javascript
+import Nav from '../components/nav'
+import Footer from '../components/footer'
+import '../styles/globals.css'
+
+function MyApp({ Component, pageProps }) {
+  return (
+    <>
+      <Nav />
+      <Component {...pageProps} />
+      <Footer />
+    </>
+  )
+}
+
+export default MyApp
+```
+
+
 # Next.JS STYLING
 
 ## STYLING OPTION 1 - INCLUDE STYLES IN COMPONENT
