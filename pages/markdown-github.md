@@ -45,6 +45,9 @@ Examples:
     }
 ```
 
+This is the list of languages supported by Markdown for code blocks:
+
+- [Markdown Supported Languages](https://github.com/jincheng9/markdown_supported_languages)
 
 ## Tables
 - Use pipes to separate columns
