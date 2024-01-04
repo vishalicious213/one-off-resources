@@ -50,9 +50,20 @@ This is the list of languages supported by Markdown for code blocks:
 - [Markdown Supported Languages](https://github.com/jincheng9/markdown_supported_languages)
 
 ## Tables
+
 - Use pipes to separate columns
 - Use dashes for bold lines to separate columns
 - Light dashes to separate lines automatically added
+
+```md
+| Name     | Email          |
+| -------- | -------------- |
+| John Doe | john@gmail.com |
+| Jane Doe | jane@gmail.com |
+```
+
+Example:
+
 | Name     | Email          |
 | -------- | -------------- |
 | John Doe | john@gmail.com |
@@ -60,9 +71,20 @@ This is the list of languages supported by Markdown for code blocks:
 
 
 ## Task Lists (checkboxes)
+
 - Preface with asterisk and brackets with space or "x" in-between
-- Space indicates incomplete task
-- "x" indicates complete task
+    - Space indicates incomplete task
+    - "x" indicates complete task
+
+```md
+* [x] Task 1
+* [x] Task 2
+* [ ] Task 3
+
+```
+
+Example:
+
 * [x] Task 1
 * [x] Task 2
 * [ ] Task 3
