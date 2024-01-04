@@ -64,24 +64,24 @@ __This text__ is strong/bold
 ```
 ~~This text~~ is struckthrough
 
-Horizontal Rule (line across page)
+## Horizontal Rule (line across page)
 - use three dashes or underscores
 ---
 ___
 
 
-Escaping (to show asterisks, etc.)
+## Escaping (to show asterisks, etc.)
 - Preface char wih a backslash
 \*This text\* shows asterisks instead of being italic
 
 
-Blockquotes
+## Blockquotes
 - Preface with a greater-than sign
 - Gives a block square at first column and a lighter shade background
 > This is a quote
 
 
-Links
+## Links
 - The text to turn into a link is wrapped in brackets
 - The URL follows, wrapped in parenthesis
 [Code Conspectus](https://vish213-code.netlify.app/)
@@ -98,7 +98,7 @@ Link in the same document
     - Spaces must be dashes
 
 
-Unordered Lists
+## Unordered Lists
 - Preface each line with an asterisk
 - Nested list - tab over and add asterisk
 * Item 1
@@ -108,7 +108,7 @@ Unordered Lists
     * Nested Item 2
 
 
-Ordered Lists
+## Ordered Lists
 - Preface each line with "1."
 - It will auto-increment
 1. Item 1
@@ -116,19 +116,19 @@ Ordered Lists
 1. Item 3
 
 
-Inline Code Block
+## Inline Code Block
 - Use back-ticks
 `<p>This is a code block</p>`
 
 
-Images
+## Images
 - Just like a link. Text is in brackets, URL is in quotes.
 - Preface with an exclamation point
 - This will show the image directly in the markdown file
 ![Markdown Logo](https://markdown-here.com/icon256.png)
 
 
-// RESOURCES
+## RESOURCES
 
 YouTube: Markdown Crash Course / Traversy Media
 https://www.youtube.com/watch?v=HUBNt18RFbo
