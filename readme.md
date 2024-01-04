@@ -1,5 +1,6 @@
 # ONE-OFF RESOURCES
-I'm creating this repository to share bits of information with other beginner web developers.
+
+Bits of information for other beginner web developers
 
 ## PAGES
 - [__Markdown basics__](https://github.com/vishalicious213/one-off-resources/blob/master/pages/markdown.md) - Format text using Markdown
