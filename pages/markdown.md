@@ -72,7 +72,7 @@ __This text__ is strong/bold
 ---
 ___
 ```
-
+---
 
 ## Escaping (to show asterisks, etc.)
 
@@ -81,7 +81,7 @@ ___
 ```md
 \*This text\* shows asterisks instead of being italic
 ```
-
+\*This text\* shows asterisks instead of being italic
 
 ## Blockquotes
 
@@ -91,7 +91,7 @@ ___
 ```md
 > This is a quote
 ```
-
+> This is a quote
 
 ## Links
 
@@ -124,7 +124,11 @@ ___
     * Nested Item 1
     * Nested Item 2
 ```
-
+* Item 1
+* Item 2
+* Item 3
+    * Nested Item 1
+    * Nested Item 2
 
 ## Ordered Lists
 
@@ -136,7 +140,9 @@ ___
 1. Item 2
 1. Item 3
 ```
-
+1. Item 1
+1. Item 2
+1. Item 3
 
 ## Inline Code Block
 
@@ -145,7 +151,7 @@ ___
 ```md
 `<p>This is a code block</p>`
 ```
-
+`<p>This is a code block</p>`
 
 ## Images
 
