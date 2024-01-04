@@ -1,21 +1,34 @@
-What is Markdown:
+# What is Markdown:
+
 - Lightweight markup language with a plain text formatting syntax
 - No tags, very readable syntax
 - Can be converted to HTML/XHTML and other formats
 - GitHub has an extended Markdown that includes tables
 
-What is it used for?
+### What is it used for?
+
 - Readme files (Github)
 - Blog posts (Gatsby)
 - Static site generators (Gatsby)
 
-VS Code extension
+### VS Code extension
+
 - Auto-Open Markdown Preview
 - Shows the preview in 2nd pane in VS Code
 
 
-Headings
+## Headings
+
 - Use a hashtag. Each one increments heading type.
+
+```md
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+```
 # Heading 1
 ## Heading 2
 ### Heading 3
@@ -23,22 +36,33 @@ Headings
 ##### Heading 5
 ###### Heading 6
 
+## Italics
 
-Italics
 - Wrap text with asterisks or underscores
+
+```md
 *This text* is italic
 _This text_ is italic
+```
+*This text* is italic
 
+## Strong (Bold)
 
-Strong (Bold)
 - Wrap text with double-underlines
+
+```md
+__This text__ is strong/bold
+```
 __This text__ is strong/bold
 
+## Strikethrough
 
-Strikethrough
 - Wrap text with double-tildes
-~~This text~~ is struckthrough
 
+```md
+~~This text~~ is struckthrough
+```
+~~This text~~ is struckthrough
 
 Horizontal Rule (line across page)
 - use three dashes or underscores
