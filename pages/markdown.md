@@ -19,7 +19,7 @@
 
 ## Headings
 
-- Use a hashtag. Each one increments heading type.
+Use a hashtag. Each one increments heading type.
 
 ```md
 # Heading 1
@@ -30,7 +30,7 @@
 ###### Heading 6
 ```
 
-Example:
+Examples:
 
 # Heading 1
 ## Heading 2
@@ -41,7 +41,7 @@ Example:
 
 ## Italics
 
-- Wrap text with asterisks or underscores
+Wrap text with asterisks or underscores
 
 ```md
 *This text* is italic
@@ -54,7 +54,7 @@ Example:
 
 ## Strong (Bold)
 
-- Wrap text with double-underlines
+Wrap text with double-underlines
 
 ```md
 __This text__ is strong/bold
@@ -66,7 +66,7 @@ __This text__ is strong/bold
 
 ## Strikethrough
 
-- Wrap text with double-tildes
+Wrap text with double-tildes
 
 ```md
 ~~This text~~ is struckthrough
@@ -78,7 +78,7 @@ Example:
 
 ## Horizontal Rule (line across page)
 
-- use three dashes or underscores
+Use three dashes or underscores
 
 ```md
 ---
@@ -91,7 +91,7 @@ Example:
 
 ## Escaping (to show asterisks, etc.)
 
-- Preface char wih a backslash
+Preface character wih a backslash
 
 ```md
 \*This text\* shows asterisks instead of being italic
@@ -118,10 +118,22 @@ Example:
 
 - The text to turn into a link is wrapped in brackets
 - The URL follows, wrapped in parenthesis
+
+```md
 [Code Conspectus](https://vish213-code.netlify.app/)
+```
 
 - To add a tooltip, add a space after URL and text in quotes
+
+```md
 [Code Conspectus](https://vish213-code.netlify.app/ "Code Conspectus")
+```
+
+Examples:
+
+[Code Conspectus](https://vish213-code.netlify.app/)
+
+[Code Conspectus (with tooltip)](https://vish213-code.netlify.app/ "Code Conspectus")
 
 ### Link in the same document
 
@@ -173,7 +185,7 @@ Example:
 
 ## Inline Code Block
 
-- Use back-ticks
+Use back-ticks
 
 ```md
 `<p>This is a code block</p>`
