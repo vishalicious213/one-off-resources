@@ -33,16 +33,35 @@ Example:
 Examples:
 
 ```bash
-    *This is a Markdown example*
-    npm install
-    npm start
+*This is a Markdown example*
+npm install
+npm start
+```
+
+```html
+<!-- This is an HTML example -->
+<div>Here's a div</div>
+```
+
+```css
+/* This is a CSS example */
+h1 {
+    font-size: 1.5rem;
+    font-weight: 1.25;
+}
+
+.container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
 ```
 
 ```javascript
-    // This is a JavaScript example
-    function add(num1, num2) {
-        return num1 + num2
-    }
+// This is a JavaScript example
+function add(num1, num2) {
+    return num1 + num2
+}
 ```
 
 This is the list of languages supported by Markdown for code blocks:
