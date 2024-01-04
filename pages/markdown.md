@@ -10,12 +10,12 @@
 - Readme files (Github)
 - Blog posts (Gatsby)
 - Static site generators (Gatsby)
+- Chat programs like Discord and Slack
 
 ### VS Code extension
 
 - Auto-Open Markdown Preview
 - Shows the preview in 2nd pane in VS Code
-
 
 ## Headings
 
@@ -29,6 +29,9 @@
 ##### Heading 5
 ###### Heading 6
 ```
+
+Example:
+
 # Heading 1
 ## Heading 2
 ### Heading 3
@@ -44,6 +47,9 @@
 *This text* is italic
 _This text_ is italic
 ```
+
+Example:
+
 *This text* is italic
 
 ## Strong (Bold)
@@ -53,6 +59,9 @@ _This text_ is italic
 ```md
 __This text__ is strong/bold
 ```
+
+Example:
+
 __This text__ is strong/bold
 
 ## Strikethrough
@@ -62,6 +71,9 @@ __This text__ is strong/bold
 ```md
 ~~This text~~ is struckthrough
 ```
+
+Example:
+
 ~~This text~~ is struckthrough
 
 ## Horizontal Rule (line across page)
@@ -72,6 +84,9 @@ __This text__ is strong/bold
 ---
 ___
 ```
+
+Example:
+
 ---
 
 ## Escaping (to show asterisks, etc.)
@@ -81,6 +96,9 @@ ___
 ```md
 \*This text\* shows asterisks instead of being italic
 ```
+
+Example:
+
 \*This text\* shows asterisks instead of being italic
 
 ## Blockquotes
@@ -91,6 +109,9 @@ ___
 ```md
 > This is a quote
 ```
+
+Example:
+
 > This is a quote
 
 ## Links
@@ -124,6 +145,9 @@ ___
     * Nested Item 1
     * Nested Item 2
 ```
+
+Example:
+
 * Item 1
 * Item 2
 * Item 3
@@ -140,6 +164,9 @@ ___
 1. Item 2
 1. Item 3
 ```
+
+Example:
+
 1. Item 1
 1. Item 2
 1. Item 3
@@ -151,6 +178,9 @@ ___
 ```md
 `<p>This is a code block</p>`
 ```
+
+Example:
+
 `<p>This is a code block</p>`
 
 ## Images
