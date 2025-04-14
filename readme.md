@@ -3,14 +3,15 @@
 Bits of information for other beginner web developers
 
 ## PROGRAMMING
-- [__Markdown basics__](https://github.com/vishalicious213/one-off-resources/blob/master/pages/markdown.md) - Format text using Markdown
-    - [__GitHub Markdown__](https://github.com/vishalicious213/one-off-resources/blob/master/pages/markdown-github.md) - Additional Markdown syntax supported by GitHub
-- [__Node/Express/SQLite/knex backend__](https://github.com/vishalicious213/one-off-resources/blob/master/pages/backend-flow.md) - Back-end with a web server, API & db for CRUD operations
-- [__Next.js basics__](https://github.com/vishalicious213/one-off-resources/blob/master/pages/next-js.md) - Next.js Setup & styling
+- [__Markdown basics__](./pages/markdown.md) - Format text using Markdown
+    - [__GitHub Markdown__](./pages/markdown-github.md) - Additional Markdown syntax supported by GitHub
+- [__Node/Express/SQLite/knex backend__](./pages/backend-flow.md) - Back-end with a web server, API & db for CRUD operations
+- [__Next.js basics__](./pages/next-js.md) - Next.js Setup & styling
 
 
 ## JOB HUNT
-- [__LinkedIn Strategies__](https://github.com/vishalicious213/one-off-resources/blob/master/pages/linkedin.md) - Improve LinkedIn profile
+- [__LinkedIn Strategies__](./pages/linkedin.md) - Improve LinkedIn profile
+- [__Banki Answers__](./pages/banki.md)
 
 
 ## FOLDERS
