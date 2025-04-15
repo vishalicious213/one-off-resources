@@ -77,9 +77,7 @@ Resources with most answers at the end.
     - __Result__: Over 6 weeks we restored all of the data & saved the company & our clients from lawsuits & hundreds of thousands of dollars of fines each. I also took over backups.
 
 1. Tell me about yourself.
-    - __Cause__:
-    - __Action__:
-    - __Result__:
+    - I'm a father of 2 girls, a foodie, I dabble in electric bass & I'm a huge fan of metal & a bunch of adjacent genres of music. For most of my career, I worked at an EMR company, designing clinical software for nursing homes. I began contributing code in 2019 after initially building parts of the interface using WYSIWYG tools. I don't get to dabble in my hobbies as much anymore, but I used to run tabletop RPG games, read a lot of fantasy, sci-fi, & horror, watched the same stuff & enjoyed learning about different aspects of art history, neuroscience, psychology & delving into global metal scenes (I'm friends with a lot of teachers, librarians & ethnomusicologists who focus on metal & write books & papers & make video documentaries). I like code, too.
 
 1. Tell me about your experience at 100Devs. 
     - __Cause__:
