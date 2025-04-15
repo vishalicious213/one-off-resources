@@ -80,9 +80,7 @@ Resources with most answers at the end.
     - I'm a father of 2 girls, a foodie, I dabble in electric bass & I'm a huge fan of metal & a bunch of adjacent genres of music. For most of my career, I worked at an EMR company, designing clinical software for nursing homes. I began contributing code in 2019 after initially building parts of the interface using WYSIWYG tools. I don't get to dabble in my hobbies as much anymore, but I used to run tabletop RPG games, read a lot of fantasy, sci-fi, & horror, watched the same stuff & enjoyed learning about different aspects of art history, neuroscience, psychology & delving into global metal scenes (I'm friends with a lot of teachers, librarians & ethnomusicologists who focus on metal & write books & papers & make video documentaries). I like code, too.
 
 1. Tell me about your experience at 100Devs. 
-    - __Cause__:
-    - __Action__:
-    - __Result__:
+    - Its the best programmer community on the internet. It looks like a web development bootcamp from the outside, but once you join, you learn that its more of a jobs program that uses web development as a set of tools to help people gain employment at high-paying jobs for upward mobility. Its a form of activism for Leon Noel, the founder, & that ethos filters down to other members of the community. The community there is amazing. They're the most positive & supportive group I've ever met online. They're connected with all-stars in the programming world & they actively empower people to grow, better themselves & carry others up with them.
 
 1. What do you know about our company?
     - __Cause__:
