@@ -62,9 +62,9 @@ Resources with most answers at the end.
     - __Result__: It completely won over our clients, brought clarity to their workflows & became a centerpiece when demoing our system to potential new clients during presentations.
 
 1. Tell me about a situation when you made a mistake at work. What happened exactly and how did you deal with it? What steps did you take to improve the situation?
-    - __Cause__:
-    - __Action__:
-    - __Result__:
+    - __Cause__: When designing the MAR (Medication Administration Record) I defaulted the "administered by" field to the logged-in user, as is the norm for the other tools in our system. I didn't know that some facilities used laptops on rolling carts as shared bedside stations for multiple nurses which resulted in the wrong nurses being documented as administering meds to residents.
+    - __Action__: A client reported that the wrong staff members were being logged for medication entries. I worked with development to add a warning modal when accessing the MAR to confirm that the nurse who was logged in was the nurse who administered meds.
+    - __Result__: The fix was live within 24 hours & we didn't lose any clients, but it made me review other point-of-care tools to make sure that they were being used only by logged-in staff who were at the bedside.
 
 1. Tell me about a time when you worked with someone who was not completing his or her share of the work. How did you handle the situation? Did you discuss your concern with your coworker? With your manager? If yes, how did your coworker respond to your concern? What was your manager's response?
     - __Cause__: We wanted to grow our development team at the EMR. The person we wanted to hire wasn't available to join us & recommended her son. We hired him & he didn't share his mother's work ethic or integrity or improve after being given many chances over 2 years.
