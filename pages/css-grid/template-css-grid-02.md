@@ -7,11 +7,11 @@ This grid has 2 columns at widescreen which turn into 2 rows at mobile. They use
 
 Desktop:
 
-![](../img/css-grid-02-a.jpg)
+![](../../img/css-grid/css-grid-02-a.jpg)
 
 Mobile:
 
-![](../img/css-grid-02-b.jpg)
+![](../../img/css-grid/css-grid-02-b.jpg)
 
 A live example is published [here](https://codepen.io/vishalicious/pen/JjROrGB?editors=0100).
 
