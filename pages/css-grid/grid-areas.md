@@ -2,10 +2,10 @@
 
 Grid areas allow different parts of a grid to be given names which can then be assigned to html elements on the grid.
 
-- [Example image 1](https://github.com/vishalicious213/code-conspectus-v2/blob/main/img/grid-areas-1.jpg) 
+- [Example image 1](../../img/css-grid/grid-areas-1.jpg) 
     - Shows a grid with the `grid-template-rows` and `grid-template-columns` defined
     - Below it is `grid-template-areas` with a name for each grid item on a row in quotes
-- [Example image 2](https://github.com/vishalicious213/code-conspectus-v2/blob/main/img/grid-areas-2.jpg) 
+- [Example image 2](../../img/css-grid/grid-areas-2.jpg) 
     - Shows the grid items using their `grid-template-areas` names
 
 ## Step 1: Set up grid (rows and columns)
