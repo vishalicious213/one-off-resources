@@ -14,6 +14,13 @@ Bits of information for other beginner web developers
 - [Grid areas](./pages/css-grid/grid-areas.md)
 - [Grid areas: Formatting & responsiveness](./pages/css-grid/grid-areas-2.md)
 
+#### CSS Grid examples
+- [Basic Responsive CSS Grid layout](./pages/css-grid/template-css-grid.md)
+- [CSS Grid - Single Column layout](./pages/css-grid/template-css-grid-01.md)
+- [CSS Grid - 2-Row/Column Responsive layout](./pages/css-grid/template-css-grid-02.md)
+- [CSS Grid - 3-Box Responsive layout](./pages/css-grid/template-css-grid-03.md)
+- [CSS Grid - 5-Box Responsive layout](./pages/css-grid/template-css-grid-04.md)
+- [CSS Grid - 6-Box Responsive layout](./pages/css-grid/template-css-grid-05.md)
 
 ## JOB HUNT
 - [__LinkedIn Strategies__](./pages/linkedin.md) - Improve LinkedIn profile
