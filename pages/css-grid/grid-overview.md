@@ -16,12 +16,12 @@
     - [Codepen: display: grid](https://codepen.io/vishalicious/pen/qBMdzqW) example
 - Flexbox only deals with one dimension, a row or column, we switch back and forth via `flex-direction`
 - Grid deals with two dimensions - we explicitly create them and place items in the grid
-    - [grid-template-columns](https://github.com/vishalicious213/code-conspectus-v2/blob/main/img/grid-template-columns.jpg) defines columns (each gets a `width`)
+    - [grid-template-columns](../../img/css-grid/grid-template-columns.jpg) defines columns (each gets a `width`)
         - example image shows 3 columns with widths of 200px, 200px and 350px
         - __css example__: `grid-template-columns: 200px 200px 350px;`
         - [Codepen: grid-template-columns](https://codepen.io/vishalicious/pen/YzOXoaG)
             - Note how in the Codepen example, there are 7 elements in the grid, an \<h1> and 6 \<p>'s. The grid has 3 columns and each element falls into a column - *rows are created automatically to accomodate the elements that exceed the 3 columns*.
-    - [grid-template-rows](https://github.com/vishalicious213/code-conspectus-v2/blob/main/img/grid-template-rows.jpg) defines rows (each gets a `height`)
+    - [grid-template-rows](../../img/css-grid/grid-template-rows.jpg) defines rows (each gets a `height`)
         - example image builds on previous one and adds 2 rows with heights of 50px & 200px
         - __css example__: `grid-template-rows: 50px 200px;`
         - [Codepen: grid-template-rows](https://codepen.io/vishalicious/pen/BaOpjGz)
@@ -38,17 +38,17 @@
         - `grid-column-end`
         - `grid-row-start`
         - `grid-row-end`
-    - [example image](https://github.com/vishalicious213/code-conspectus-v2/blob/main/img/grid-template-columns-and-rows.jpg) shows `column lines` in __red__ and `row lines` in __yellow__
+    - [example image](../../img/css-grid/grid-template-columns-and-rows.jpg) shows `column lines` in __red__ and `row lines` in __yellow__
         - lines are numbered, starting at 1, not 0
-        - [example image](https://github.com/vishalicious213/code-conspectus-v2/blob/main/img/grid-template-placement-1.jpg) starting at row __1__ and ending at row __3__ & starting at column __2__ and ending at column __3__
-        - [example image](https://github.com/vishalicious213/code-conspectus-v2/blob/main/img/grid-template-placement-2.jpg) starting at row __2__ and ending at row __3__ & starting at column __1__ and ending at column __3__
+        - [example image](../../img/css-grid/grid-template-placement-1.jpg) starting at row __1__ and ending at row __3__ & starting at column __2__ and ending at column __3__
+        - [example image](../../img/css-grid/grid-template-placement-2.jpg) starting at row __2__ and ending at row __3__ & starting at column __1__ and ending at column __3__
         - Items can be placed in a __square__ or __rectangle__ shape - no odd shapes, like "__L__"
         - [Codepen: Placing items on the grid](https://codepen.io/vishalicious/pen/WNgRwJJ)
     - The shorthand for `grid-column-start` & `grid-column-end` and `grid-row-start` & `grid-row-end` is:
         - `grid-row: start / end;`
         - `grid-column: start / end;`
-        - [This](https://github.com/vishalicious213/code-conspectus-v2/blob/main/img/grid-template-placement-2.jpg) explicit placement can be shortened to [this](https://github.com/vishalicious213/code-conspectus-v2/blob/main/img/grid-template-placement-3.jpg)
-            - Another [example](https://github.com/vishalicious213/code-conspectus-v2/blob/main/img/grid-template-placement-4.jpg) using shorthand
+        - [This](../../img/css-grid/grid-template-placement-2.jpg) explicit placement can be shortened to [this](../../img/css-grid/grid-template-placement-3.jpg)
+            - Another [example](../../img/css-grid/grid-template-placement-4.jpg) using shorthand
     - __Overlap__ grid items by positioning them in common row or columns
         - [Codepen: Overlapping items on a grid](https://codepen.io/vishalicious/pen/OJoWEdO)
     - Grids can be counted backwards using negative numbers
