@@ -2,11 +2,11 @@
 
 This is a traditional CSS grid layout. At screen sizes under 768px, it has the following layout:
 
-![](../img/css-grid-sm-layout.jpg)
+![](../../img/css-grid/css-grid-sm-layout.jpg)
 
 Above 768px, it looks like this:
 
-![](../img/css-grid-lg-layout.jpg)
+![](../../img/css-grid/css-grid-lg-layout.jpg)
 
 A live example is published [here](https://codepen.io/vishalicious/pen/MWeZxZv?editors=1100).
 
