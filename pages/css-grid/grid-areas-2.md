@@ -11,7 +11,7 @@
 
 Use a dot in a grid area definitiion to indicate that the area is empty.
 
-![Empty grid area in footer row](https://github.com/vishalicious213/code-conspectus-v2/blob/main/img/grid-areas-empty.jpg)
+![Empty grid area in footer row](../../img/css-grid/grid-areas-empty.jpg)
 
 ```css
 .grid {
@@ -41,7 +41,7 @@ Multiple dots can also be used, for readability.
 
 This is an easy way to format a grid so the content is narrower than the header & footer.
 
-![](https://github.com/vishalicious213/code-conspectus-v2/blob/main/img/grid-areas-3.jpg)
+![](../../img/css-grid/grid-areas-3.jpg)
 
 ```css
 .grid {
