@@ -8,11 +8,11 @@ This grid has 5 boxes which change configuration when switching from fullscreen 
 
 Desktop:
 
-![](../img/css-grid-04-a.jpg)
+![](../../img/css-grid/css-grid-04-a.jpg)
 
 Mobile:
 
-![](../img/css-grid-04-b.jpg)
+![](../../img/css-grid/css-grid-04-b.jpg)
 
 A live example is published [here](https://codepen.io/vishalicious/pen/XWjzegq?editors=0100).
 
