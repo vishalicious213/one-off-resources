@@ -2,7 +2,7 @@
 
 This simple grid has 3 rows. The 'header' and 'footer' rows take up as much space as their content needs. The 'content' row is 1fr is size. The code is a simplified version of an example from YouTube (see Resources).
 
-![](../img/css-grid-01.jpg)
+![](../../img/css-grid/css-grid-01.jpg)
 
 A live example is published [here](https://codepen.io/vishalicious/pen/YzGErKB?editors=1100).
 
