@@ -37,9 +37,9 @@ Resources with most answers at the end.
     - __Result__: We delivered the critical updates on time & the remaining items were added the next week. The experience taught me to really analyze user requests in smaller chunks to help support our dev team & ensure progress at a maintainable pace.
 
 1. Give me an example of a time you had to take a creative and unusual approach to solve coding problem. How did this idea come to your mind? Why do you think it was unusual?
-    - __Cause__:
-    - __Action__:
-    - __Result__:
+    - __Cause__: Clinical staff were frustrated by having to fully re-enter assessments every time one was needed, especially when there were only a few changes. Some tools had hundreds of fields, and re-inputting everything was time-consuming, leading to burnout and data entry errors.
+    - __Action__: I proposed, designed & had to fight very hard for a new feature to amend assessments. It went against our founder's view of how assessments should be completed & I had to leverage our clinical review panel for backup.
+    - __Result__: After months of development, the "Amendment" feature was added to clinical assessments & risk tools. It let users copy a previous assessment (within 90 days), preserving data that wouldn't change (chronic conditions, demographic info, historical notes, etc.) but NOT copying information for things that could change (vitals, cognition, wound status, etc.). Credentialed counter-signatures were necessary to finalize the forms. Clients LOVED it & it became the single most time-saving feature of the application.
 
 1. Describe a situation in which you worked diligently on a project and it did not produce the desired results. Why didn't you get the desired results? What did you learn from the experience?
     - __Cause__: I redesigned the wound section of the skin assessment tool with a pain intensity slider for individual wounds. The design looked great but clinical advisory panel didn't care for it. The interface slowed them down when they needed to document quickly during their assessments.
