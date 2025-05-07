@@ -68,8 +68,8 @@ Resources with most answers at the end.
 
 1. Tell me about a time when you worked with someone who was not completing his or her share of the work. How did you handle the situation? Did you discuss your concern with your coworker? With your manager? If yes, how did your coworker respond to your concern? What was your manager's response?
     - __Cause__: We wanted to grow our development team at the EMR. The person we wanted to hire wasn't available to join us & recommended her son. We hired him & he didn't share his mother's work ethic or integrity or improve after being given many chances over 2 years.
-    - __Action__: My team was demoralized by his lack of effort & his focus on entertainment but was afraid to upset his mother, a friend of our lead developer. I wasn't afraid. I explained the situation to our lead & our founder & learned they were aware but reluctant to sour the relationship between our lead & the new hire's mother.
-    - __Result__: I convinced them to make the hard choice because we were being taken advantage of. The new hire's mother said she knew about his performance already. He was let go, morale improved & his mother respected our decision & remained friends with our lead.
+    - __Action__: My team was demoralized by his lack of effort but was afraid to upset his mother, a friend of our lead developer. I explained the situation to our lead & our founder & convinced them to make the hard choice because we were being taken advantage of.
+    - __Result__: The new hire's mother was already aware of his performance. He was let go, morale improved & his mother respected our decision & remained friends with our lead.
 
 1. Describe a situation when you worked effectively under pressure. How did you feel when working under pressure? What was going on, and how did you get through it?
     - __Cause__: We had a system crash, wiping out our main application server. After restoration, I found that the backups were also corrupted. This was crippling to our company & clients, with 3 months of data lost & potential litigation to both them & us. It was a nightmare for EVERYONE.
