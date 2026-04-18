@@ -25,7 +25,7 @@ Bits of information for other beginner web developers
 ## JOB HUNT
 - [__LinkedIn Strategies__](./pages/linkedin.md) - Improve LinkedIn profile
 - [__Banki Answers__](./pages/banki.md)
-
+- [__Job Sites__](./pages/2026-04-18.md)
 
 ## FOLDERS
 * __code-challenges__: challenges from CodeSignal
